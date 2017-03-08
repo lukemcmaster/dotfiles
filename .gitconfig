@@ -1,0 +1,22 @@
+[user]
+	name = Luke McMaster
+	email = mrlukemcmaster@gmail.com
+[core]
+	autocrlf = input
+	excludesfile = ~/.globalgitignore
+[color]
+	ui = true
+[alias]
+	lg = log --pretty=format:'%C(yellow)%h %Creset%s' --abbrev-commit --graph
+	lng = log --pretty=format:'%C(yellow)%h %Creset%s%C(bold red)%d%Creset %Cblue(%an, %ar)%Creset' --abbrev-commit --graph
+[format]
+	pretty = medium
+[credential]
+	helper = osxkeychain
+[color "diff"] 
+	meta = yellow
+	frag = blue 
+	whitespace = green ul
+[color "diff-highlight"] 
+	oldHighlight = ul
+	oldReset = noul
